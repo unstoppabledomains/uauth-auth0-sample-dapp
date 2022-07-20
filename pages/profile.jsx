@@ -27,7 +27,7 @@ function Profile() {
             <Col md>
               <h2 data-testid="profile-name">{user.name}</h2>
               <p className="lead text-muted" data-testid="profile-email">
-                {user.email}
+                {user.nickname} | {user["https://unstoppabledomains.com/wallet_address"]}
               </p>
             </Col>
           </Row>
