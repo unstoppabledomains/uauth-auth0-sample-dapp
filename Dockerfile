@@ -4,16 +4,10 @@ RUN mkdir /app
 
 WORKDIR /app
 
-COPY package.json .
-COPY next.config.js .
-COPY api-server.js .
+COPY . .
 
 RUN npm install
-RUN npm build
-
-COPY .next ./.next
-COPY public ./.public
-COPY . .
+RUN npm run build
 
 # ---------------
 
@@ -28,6 +22,7 @@ COPY --from=build /app/package.json .
 COPY --from=build /app/next.config.js .
 COPY --from=build /app/api-server.js .
 COPY --from=build /app/.next ./.next
+COPY --from=build /app/pages ./pages
 COPY --from=build /app/public ./public
 
 RUN npm install
