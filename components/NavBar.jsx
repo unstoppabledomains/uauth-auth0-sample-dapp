@@ -59,7 +59,7 @@ const NavBar = () => {
               {!isLoading && !user && (
                 <NavItem id="qsLoginBtn">
                   <AnchorLink
-                    href="/api/auth/login"
+                    href="/profile"
                     className="btn btn-primary btn-margin"
                     tabIndex={0}
                     testId="navbar-login-desktop">
