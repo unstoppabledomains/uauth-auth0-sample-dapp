@@ -1,6 +1,7 @@
-# Auth0 Next.js SDK Sample Application
+# Auth0 + Unstoppable Domains Sample Application
 
-This sample demonstrates the integration of [Auth0 Next.js SDK](https://github.com/auth0/nextjs-auth0) into a Next.js application created using [create-next-app](https://nextjs.org/docs/api-reference/create-next-app). The sample is a companion to the [Auth0 Next.js SDK Quickstart](https://auth0.com/docs/quickstart/webapp/nextjs).
+This sample demonstrates the integration of [Auth0 Next.js SDK](https://github.com/auth0/nextjs-auth0) into a Next.js application to support 
+the [Login with Unstoppable](https://github.com/unstoppabledomains/uauth-auth0-social-connection) social connection.
 
 This sample demonstrates the following use cases:
 
