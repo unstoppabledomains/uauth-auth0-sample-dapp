@@ -10,8 +10,8 @@ const Hero = () => (
     </h1>
 
     <p className="lead" data-testid="hero-lead">
-      This is a sample application that demonstrates the <a href="https://github.com/unstoppabledomains/uauth-auth0-social-connection">Unstoppable Domains social connection</a>{' '}
-      for Auth0, using <a href="https://nextjs.org">Next.js</a>
+      This is a sample application that demonstrates the <a href="https://marketplace.auth0.com/integrations/unstoppable-domains">Unstoppable Domains social connection</a>{' '}
+      for Auth0, using <a href="https://nextjs.org">Next.js</a>. The <a href="https://github.com/unstoppabledomains/uauth-auth0-sample-dapp">source code</a> for this live demo is available to show how to quickly bootstrap your app with Web3 identity.
     </p>
   </div>
 );
